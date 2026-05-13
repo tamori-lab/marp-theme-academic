@@ -90,29 +90,63 @@ ul ul {
   font-size: 0.9em;
 }
 
+/* =========================
+   表紙スライド
+   ========================= */
+
+section.lead {
+  background-image:
+    url('https://raw.githubusercontent.com/tamori-lab/marp-theme-academic/refs/heads/main/images/bg-nitkc.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
 section.lead h1,
 section.lead h2,
 section.lead h3,
 section.lead h4,
-section.lead h5 {
-  color: var(--color-nut2);
+section.lead h5,
+section.lead p,
+section.lead li {
+  color: #fff;
   text-align: left;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
+}
+
+section.lead h1 {
+  font-size: 56px;
+  font-weight: 700;
+}
+
+section.lead h2 {
+  color: #fff;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.55);
+}
+
+section.lead h3,
+section.lead h4,
+section.lead h5 {
+  color: rgba(255, 255, 255, 0.92);
+}
+
+section.lead strong {
+  color: #fff;
+  font-weight: 700;
 }
 
 section.lead p {
   text-align: right;
 }
 
-section.lead {
-  background:
-    linear-gradient(
-      135deg,
-      rgba(42, 81, 138, 0.16) 0%,
-      rgba(42, 81, 138, 0.08) 50%,
-      rgba(44, 147, 181, 0.08) 100%
-    ),
-    var(--color-background);
+section.lead::after {
+  color: rgba(255, 255, 255, 0.8);
 }
+
+/* =========================
+   通常スライド
+   ========================= */
 
 header {
   background-color: var(--color-nut2);
