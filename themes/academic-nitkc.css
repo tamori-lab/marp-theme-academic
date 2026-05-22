@@ -236,3 +236,10 @@ section.scale-math mjx-container {
   transform: scale(0.9);
   transform-origin: center;
 }
+
+ul,
+ol,
+li {
+  font-size: 26px;
+  line-height: 1.5;
+}
