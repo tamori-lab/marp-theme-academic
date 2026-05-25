@@ -96,10 +96,6 @@ ul ul {
 
 section.lead {
   background-image:
-    linear-gradient(
-      rgba(0, 0, 0, 0.22),
-      rgba(0, 0, 0, 0.22)
-    ),
     url('https://raw.githubusercontent.com/tamori-lab/marp-theme-academic/refs/heads/main/images/bg-nitkc.png');
   background-size: cover;
   background-position: center;
